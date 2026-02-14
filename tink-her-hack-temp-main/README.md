@@ -13,7 +13,7 @@
 - Member 2: [Ayisha Safa PK] - [Noble Women's College]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+["https://delightful-madeleine-8a751a.netlify.app/"]
 
 ### Project Description
 [It helps 2 friends keep a journal for letting each other know about each others whereabouts. It also has features of storing their favourites images and videos througha google drive. It also consists of a bucket-list they wish to fullfill.]
