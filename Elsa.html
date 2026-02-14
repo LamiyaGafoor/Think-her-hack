@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsa</title>
+    <link rel="stylesheet" href="elsa.css">
+    <script>
+    
+   
+function duplicateDiv() {
+    const original = document.getElementById("pages");
+    const clone = original.cloneNode(true);
+
+    
+    const textarea = clone.querySelector("textarea");
+    textarea.value = "";
+
+    document.getElementById("container").appendChild(clone);
+}
+</script>
+</head>
+<body bgcolor="#F2DBC1">
+    <center><h1 style="font-family: cursive;color: #5C4033;">ELSA'S JOURNAL</h1></center>
+    <div id="pages">
+        <form action="">
+            <textarea name="msg" id="msg" rows="27" cols="65">
+                
+            </textarea>
+        </form>
+    </div><br>
+    <button onclick="duplicateDiv()" id="add">Add Page</button>
+    <button onclick="saveJournal('Elsa')" id="save">Save</button>
+    <div id="container"></div>  
+    <script type="module" src="journal.js"></script>
+</body>
+</html>

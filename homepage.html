@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <script>
+                import { getAuth, onAuthStateChanged } 
+        from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+        const auth = getAuth();
+
+        onAuthStateChanged(auth, (user) => {
+        if (!user) {
+            window.location.href = "login.html";
+        }
+        });
+
+    </script>
+</head>
+<body bgcolor="#F2DBC1">
+    <div id="main">
+        <div class="sub1"><center><p class="second" style="font-family:cursive;">OUR PERSONAL SPACE</p></center>
+            <BR></BR>
+            <button class="btn"><a href="https://drive.google.com/drive/folders/167C6rCtP-TR0A_irHj9ExPH-udL8Req3?usp=sharing" style="text-decoration: none; color: white;"> Memories</a></button>
+            <button class="btn"><a href="list.html" style="text-decoration: none; color: white;">Bucket-List</a></button>
+        </div>
+        <br><br><br><br><br>
+        <div class="sub2">
+            <center><p class="second" style="font-family:cursive;">STORIES TO SHARE</p></center>
+            <br><br><br>
+            <button class="btn"><a href="Elsa.html" style="text-decoration: none; color: white;">Elsa</a></button>
+            <button class="btn"><a href="Anna.html" style="text-decoration: none; color: white;">Anna</a></button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

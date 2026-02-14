@@ -1,0 +1,31 @@
+
+.second{
+    width: 40%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    color:#5b3e31 ;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 75px;
+
+}
+
+
+.btn{
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background:#5b3e31;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 95px;
+    transition: 0.3s ease;
+}
+
+
+

@@ -1,0 +1,40 @@
+#pages{
+    background-color: #C4A484;
+    width: 900px;
+    height: 820px;
+    border-radius: 13%;
+    margin-left: 23%;
+
+}
+#msg{
+    margin-top: 40px;
+    margin-left: 44px;
+    background-color:#C4A484 ;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: brown;
+}
+
+#add{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #5b3e31;
+    width: 10%;
+    height: 6%;
+    font-size: 20px;
+    color: wheat;
+    
+}
+
+#save{
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    background-color: #5b3e31;
+    width: 10%;
+    height: 6%;
+    font-size: 20px;
+    color: wheat;
+}
